@@ -40,26 +40,31 @@ menu_list = "Select option:\n1.add\n2.minus\n3.multiple\n0.exit"
 user_choice = input(menu_list)
 
 
-while user_choice != "EXIT":
+while user_choice != "0":
 
-    num1 = float (input ('Please enter number 1: '))
-    num2 = float (input ('Please enter number 2: '))
-
-    if user_choice == '1': 
-        result = num1 + num2
-        print (result)
-
-    elif user_choice == "2":
-        result = num1 - num2
-        print (result)
-
-    elif user_choice == "3":
-        result = num1*num2
-        print (result)
-
-    else:
+    if user_choice not in ['1','2','3'] :
         print ("Incorrect option")
-    
+        menu_list = "Select option:\n1.add\n2.minus\n3.multiple\n0.exit"
+        user_choice = input(menu_list)
+        continue
+        
+    else: 
+        num1 = float (input ('Please enter number 1: '))
+        num2 = float (input ('Please enter number 2: '))
+
+        if user_choice == '1': 
+            result = num1 + num2
+            print (result)
+
+        elif user_choice == "2":
+         result = num1 - num2
+         print (result)
+
+        elif user_choice == "3":
+            result = num1*num2
+            print (result)
+
+
     menu_list = "Select option:\n1.add\n2.minus\n3.multiple\n0.exit"
     user_choice = input(menu_list)
 
