@@ -9,6 +9,8 @@ I did paste the link to my github
 I did exercises 1-3 
 I did exercises 4
 I did exercise 5
+I did exercise 6
+
 
 ## Module 5
 I did exercises 1
