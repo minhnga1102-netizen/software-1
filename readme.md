@@ -11,6 +11,9 @@ I did exercises 4
 I did exercise 5
 I did exercise 6
 
+## Module 4
+I did exercise 1-2-3-4
+
 
 ## Module 5
 I did exercises 1
