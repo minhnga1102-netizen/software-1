@@ -17,3 +17,8 @@ I did exercise 1-2-3-4
 
 ## Module 5
 I did exercises 1
+I did exercises 2
+I did exercises 3-4-5-6
+
+
+
