@@ -23,3 +23,5 @@ I did exercises 3-4-5-6
 ## Module6
 I did exercises 1-2-3-4
 
+## Module 7
+I did exercises 1-2-3-4-5-6
