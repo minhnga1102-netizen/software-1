@@ -34,3 +34,6 @@ I did exercise 1-2-3-4
 
 ## Module 10
 I did exercises 1-2-3-4
+
+## Module 11
+I did exercises 1-2
