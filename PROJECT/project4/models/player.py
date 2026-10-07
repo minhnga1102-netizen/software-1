@@ -1,7 +1,11 @@
+import random
+
 class Player:
     def __init__(self, name, location):
         self.name=name
         self.items = []
+        #new user always created with empty pokemon list
+        self.pokemon_list = []
         #instance attribute, always come with SELF
         self.location = location
     def move(self, room):
@@ -19,7 +23,21 @@ class Player:
             print("There is nothing in the room.")
     def show_inventory(self):
         if len(self.items) == 0:
-           print("Your list is empty.")
+           print("Your items list is empty.")
         else: 
            for item in self.items:
                 print(f"{item.name} {item.effect}")
+
+    #show user's caught pokemon
+    def show_pokemon_list(self):
+        if len(self.pokemon_list) == 0:
+            print("Your pokemon list is empty.")
+        else:
+            for pokemon in self.pokemon_list:
+                print(pokemon)
+
+    def catch_pokemon(self):
+        pokemons = ["Pikachu", "Eeve", "Snorlax"]
+        caught = random.choice(pokemons)
+        print(f"A wild {caught} pokemon has appeared and you caught it!")
+        self.pokemon_list.append(caught)
