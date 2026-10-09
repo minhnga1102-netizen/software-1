@@ -9,3 +9,8 @@ INVENTORY - view your items
 MOVE      - move to another room
 SAVE      - save your game
 LOPETA    - quit the game
+
+==HOW TO WIN (choose 1 route)==
+Route 1 - Legend Hunter: catch Mewtwo and collect all 3 balls.
+Route 2 - Master Pokedex: catch all 4 Pokemon.
+Route 3 - Explorer: go to the Pokemon League with at least 2 balls and 2 Pokemon.

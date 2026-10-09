@@ -1,5 +1,0 @@
-==Welcome to the Pokemon world!==
-
-You are a trainer starting your journey.
-Explore new places, collect different items and catch wild Pokemon.
-Who knows, one day you can catch a legendary Pokemon and win the Pokemon League!
